@@ -1,11 +1,8 @@
 #include "pch.h"
 #include "CppUnitTest.h"
-#include <cstring>
+#include "../CSCN71020_A3/rock_paper_scissors.h" // Include the header file
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
-
-// Function prototype
-const char* determine_winner(const char* player1, const char* player2);
 
 namespace RockPaperScissorsTest
 {
